@@ -4,7 +4,6 @@
     "config:recommended",
     ":approveMajorUpdates",
     ":semanticCommitScopeDisabled",
-    "helpers:pinGitHubActionDigests"
   ],
   ignorePresets: [":semanticPrefixFixDepsChoreOthers"],
   labels: ["dependencies", "triage:no"],
