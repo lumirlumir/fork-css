@@ -31,6 +31,7 @@
       description: "Pin prettier",
       matchPackageNames: ["prettier"],
       rangeStrategy: "pin",
+      automerge: true,
     },
     {
       description: "Update non-major dev-dependencies together.",
@@ -38,6 +39,7 @@
       groupSlug: "non-major-dev-deps",
       matchDepTypes: ["devDependencies"],
       matchUpdateTypes: ["minor", "patch"],
+      automerge: true,
     },
     {
       description: "Update ESLint packages together.",
