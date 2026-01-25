@@ -24,6 +24,7 @@
       addLabels: ["deps:actions"],
       matchManagers: ["github-actions"],
       matchPackageNames: ["!actions/**", "!github/**"],
+      automerge: true,
     },
     {
       description: "Use the deps:npm label for npm manager packages (this means Renovate's npm manager).",
