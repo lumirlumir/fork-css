@@ -11,4 +11,4 @@ on:
 
 jobs:
     ci-package-manager:
-        uses: eslint/workflows/.github/workflows/ci-package-manager.yml@main
+        uses: eslint/workflows/.github/workflows/ci-package-manager.yml@d533003faa62d8d06f2fef67cb5afbe75d643dfd # main
