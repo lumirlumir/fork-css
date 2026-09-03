@@ -73,8 +73,8 @@
   "license": "Apache-2.0",
   "dependencies": {
     "@eslint/core": "^1.2.1",
-    "@eslint/css-tree": "^4.0.3",
-    "@eslint/plugin-kit": "^0.7.1"
+    "@eslint/css-tree": "^4.1.0",
+    "@eslint/plugin-kit": "^0.7.3"
   },
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.18.2",
